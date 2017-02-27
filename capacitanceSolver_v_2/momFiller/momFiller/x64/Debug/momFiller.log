@@ -1,0 +1,4 @@
+﻿  momFiller.cpp
+f:\phd\iisc_projects\solver\capacitancesolver_v_2\momfiller\momfiller\momfiller.cpp(46): warning C4101: 'obsArea': unreferenced local variable
+f:\phd\iisc_projects\solver\capacitancesolver_v_2\momfiller\momfiller\momfiller.cpp(50): warning C4101: 'srcMaxLen': unreferenced local variable
+  momFiller.vcxproj -> F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Debug\momFiller.lib

@@ -1,0 +1,4 @@
+﻿  main.cpp
+matrix.lib(matrix.obj) : error LNK2019: unresolved external symbol dgetrf referenced in function "public: int * __cdecl matrix::matrixLU(void)" (?matrixLU@matrix@@QEAAPEAHXZ)
+matrix.lib(matrix.obj) : error LNK2019: unresolved external symbol dgetrs referenced in function "public: void __cdecl matrix::matrixSolve(class std::vector<double,class std::allocator<double> > &,int *)" (?matrixSolve@matrix@@QEAAXAEAV?$vector@NV?$allocator@N@std@@@std@@PEAH@Z)
+F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Debug\capSolverMain.exe : fatal error LNK1120: 2 unresolved externals

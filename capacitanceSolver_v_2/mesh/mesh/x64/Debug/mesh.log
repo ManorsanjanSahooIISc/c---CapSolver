@@ -1,0 +1,6 @@
+﻿  patch.cpp
+f:\phd\iisc_projects\solver\capacitancesolver_v_2\mesh\mesh\patch.cpp(176): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  node.cpp
+  mesh.cpp
+  Generating Code...
+  mesh.vcxproj -> F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Debug\mesh.lib

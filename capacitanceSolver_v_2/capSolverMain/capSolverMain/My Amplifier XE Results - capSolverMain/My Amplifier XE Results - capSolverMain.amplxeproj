@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption>localhost</connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1486103370</timestamp>
+  <hostname>cem-office-pc</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Amplifier XE 2017 Update 1</product>
+  <buildNumber type="s32_t">486011</buildNumber>
+  <logicalCPUCount type="s32_t">8</logicalCPUCount>
+  <CPUFrequency type="s64_t">2200000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">58</CPUModel>
+  <CPUStepping type="s32_t">9</CPUStepping>
+  <CPUBrandName>      Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz</CPUBrandName>
+  <isa>avx</isa>
+ </rdmgr>
+ <All_Configurations-All_Platforms>
+  <target_settings>
+   <inherited_state type="bool">true</inherited_state>
+   <result_dir>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain</result_dir>
+   <selected_workload>
+    <localhost>launch</localhost>
+    <localhostemulator>launch</localhostemulator>
+    <micemulator>launch</micemulator>
+   </selected_workload>
+   <result_dir>
+    <micemulator>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain</micemulator>
+    <localhostemulator>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain</localhostemulator>
+    <localhost>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain</localhost>
+   </result_dir>
+   <workloads>
+    <localhost>
+     <attach type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>attach</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <attach.process_name>capSolverMain.exe</attach.process_name>
+       <attach.pid type="null"></attach.pid>
+       <result_directory.path>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release</value>
+        </item>
+        <item>
+         <value>sym=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\CEMOFF~1\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>sym=srv*https://msdl.microsoft.com/download/symbols</value>
+        </item>
+        <item>
+         <value>bin=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release</value>
+        </item>
+        <item>
+         <value>bin=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(VC_ExecutablePath_x64)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\AMD APP\bin\x86_64</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\AMD APP\bin\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\Intel(R) Management Engine Components\DAL</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\Intel(R) Management Engine Components\IPT</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Live\Shared</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32\config\systemprofile\.dnx\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft DNX\Dnvm</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\130\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\WiFi\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Common Files\Intel\WirelessCommon</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2013a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2013a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Bitvise SSH Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MiKTeX 2.9\miktex\bin\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Skype\Phone</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\cemoffice\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>enableRing</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetRingBuffer</id>
+         <value type="s32_t">0</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>attach</value>
+        </contextValue>
+        <contextValue>
+         <id>tracingMode</id>
+         <value type="null"></value>
+        </contextValue>
+       </context>
+      </workload>
+     </attach>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
+       <launch_app.app_to_launch>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release\capSolverMain.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\workingDirectoryPath</launch_app.working_folder>
+       <launch_app.app_parameters></launch_app.app_parameters>
+       <launch_app.environment>PATH=;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.4.246\windows\redist\intel64\mkl;%PATH%&#13;
+PATH=;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.4.246\windows\redist\intel64\mkl;%PATH%</launch_app.environment>
+       <launch_app.environment_prepend>PATH=;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.4.246\windows\redist\intel64\mkl;</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release</value>
+        </item>
+        <item>
+         <value>sym=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\CEMOFF~1\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>sym=srv*https://msdl.microsoft.com/download/symbols</value>
+        </item>
+        <item>
+         <value>bin=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release</value>
+        </item>
+        <item>
+         <value>bin=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(VC_ExecutablePath_x64)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\AMD APP\bin\x86_64</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\AMD APP\bin\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\Intel(R) Management Engine Components\DAL</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\Intel(R) Management Engine Components\IPT</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Live\Shared</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32\config\systemprofile\.dnx\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft DNX\Dnvm</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\130\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\WiFi\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Common Files\Intel\WirelessCommon</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2013a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2013a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Bitvise SSH Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MiKTeX 2.9\miktex\bin\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Skype\Phone</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\cemoffice\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>enableRing</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetRingBuffer</id>
+         <value type="s32_t">0</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+        <contextValue>
+         <id>traceMpi</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>tracingMode</id>
+         <value type="null"></value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+     <system type="pointer" type_id="dasID_cctrl2::SystemWideWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>system</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\My Amplifier XE Results - capSolverMain\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release</value>
+        </item>
+        <item>
+         <value>sym=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\CEMOFF~1\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>sym=srv*https://msdl.microsoft.com/download/symbols</value>
+        </item>
+        <item>
+         <value>bin=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\x64\Release</value>
+        </item>
+        <item>
+         <value>bin=F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(VC_ExecutablePath_x64)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\capSolverMain\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\AMD APP\bin\x86_64</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\AMD APP\bin\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\Intel(R) Management Engine Components\DAL</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\Intel(R) Management Engine Components\IPT</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Live\Shared</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32\config\systemprofile\.dnx\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft DNX\Dnvm</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\130\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\WiFi\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Common Files\Intel\WirelessCommon</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2013a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2013a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Bitvise SSH Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MiKTeX 2.9\miktex\bin\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Skype\Phone</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\cemoffice\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>enableRing</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetRingBuffer</id>
+         <value type="s32_t">0</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>system</value>
+        </contextValue>
+        <contextValue>
+         <id>tracingMode</id>
+         <value type="null"></value>
+        </contextValue>
+       </context>
+      </workload>
+     </system>
+    </localhost>
+   </workloads>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+  </target_settings>
+  <analysis_type_settings>
+   <selected_analysis_type_path>C:\Program Files (x86)\IntelSWTools\VTune Amplifier XE 2017\config\analysis_type\basic_hotspots.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+ </All_Configurations-All_Platforms>
+ <contextValues type="bag"/>
+</root>

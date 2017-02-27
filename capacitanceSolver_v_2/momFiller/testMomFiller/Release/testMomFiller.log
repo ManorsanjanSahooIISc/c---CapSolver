@@ -1,0 +1,2 @@
+﻿  testMomFiller.cpp
+LINK : fatal error LNK1181: cannot open input file 'mkl_intel_c.lib'

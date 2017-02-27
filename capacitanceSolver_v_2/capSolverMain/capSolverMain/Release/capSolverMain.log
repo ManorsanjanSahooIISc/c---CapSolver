@@ -1,0 +1,6 @@
+﻿  main.cpp
+main.obj : error LNK2001: unresolved external symbol "public: int __thiscall mesh::getNumNets(void)" (?getNumNets@mesh@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "public: int __thiscall mesh::getNumPatches(void)" (?getNumPatches@mesh@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall mesh::findNumNets(void)" (?findNumNets@mesh@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall mesh::patchListSize(void)" (?patchListSize@mesh@@QAEXXZ)
+F:\phd\IISc_PROJECTS\Solver\capacitanceSolver_v_2\capSolverMain\Release\capSolverMain.exe : fatal error LNK1120: 4 unresolved externals
